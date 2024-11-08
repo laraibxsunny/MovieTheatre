@@ -7,7 +7,7 @@ const Show = db.define('shows', {
   genre: DataTypes.STRING,
   rating: DataTypes.INTEGER,
   available: DataTypes.BOOLEAN
-})
+});
 
 // exports
 module.exports = Show

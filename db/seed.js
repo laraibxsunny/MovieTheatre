@@ -1,7 +1,7 @@
 const { db } = require('./connection')
 const { Show, User } = require('../models/index')
-const userData = require('./users.json')
-const showData = require('./shows.json')
+const userData = require('./users')
+const showData = require('./shows')
 
 const seed = async () => {
   // drop the db
